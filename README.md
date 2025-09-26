@@ -23,31 +23,32 @@ La siguiente tabla muestra el progreso de todos los proyectos planificados en el
 
 | Proyecto | Categoría | Estado | Descripción |
 |----------|-----------|--------|-------------|
-| `proyecto/hello-world-action` | Básicos | 📋 Pendiente | Primer acercamiento a GitHub Actions con workflows básicos |
-| `proyecto/ci-basico` | Básicos | 📋 Pendiente | Configuración de integración continua básica |
-| `proyecto/testing-automatizado` | Básicos | 📋 Pendiente | Automatización de pruebas unitarias y de integración |
-| `proyecto/deploy-azure-container` | Despliegue | 📋 Pendiente | Despliegue de microservicio en contenedor de Azure |
-| `proyecto/deploy-aws-lambda` | Despliegue | 📋 Pendiente | Despliegue de funciones serverless en AWS Lambda |
-| `proyecto/deploy-docker-hub` | Despliegue | 📋 Pendiente | Publicación de imágenes Docker en Docker Hub |
-| `proyecto/deploy-github-pages` | Despliegue | 📋 Pendiente | Despliegue de sitios estáticos en GitHub Pages |
-| `proyecto/security-scanning` | Seguridad | 📋 Pendiente | Implementación de escaneo de seguridad pre-despliegue |
-| `proyecto/code-quality` | Seguridad | 📋 Pendiente | Análisis de calidad de código con SonarCloud |
-| `proyecto/dependency-scanning` | Seguridad | 📋 Pendiente | Escaneo de vulnerabilidades en dependencias |
-| `proyecto/secret-scanning` | Seguridad | 📋 Pendiente | Gestión segura de secretos y credenciales |
-| `proyecto/multi-environment` | Avanzados | 📋 Pendiente | Despliegue en múltiples entornos (dev, staging, prod) |
-| `proyecto/matrix-builds` | Avanzados | 📋 Pendiente | Builds en paralelo con diferentes configuraciones |
-| `proyecto/custom-actions` | Avanzados | 📋 Pendiente | Creación de acciones personalizadas |
-| `proyecto/workflow-orchestration` | Avanzados | 📋 Pendiente | Orquestación compleja de workflows |
-| `proyecto/slack-notifications` | Integración | 📋 Pendiente | Integración con Slack para notificaciones |
-| `proyecto/jira-integration` | Integración | 📋 Pendiente | Integración con Jira para gestión de issues |
-| `proyecto/monitoring-alerts` | Integración | 📋 Pendiente | Integración con herramientas de monitoreo |
-| `proyecto/database-migrations` | Integración | 📋 Pendiente | Automatización de migraciones de base de datos |
+| `proyecto/springboot-ci-basic` | Backend Java | 📋 Pendiente | CI/CD básico para aplicación Spring Boot con Maven/Gradle |
+| `proyecto/quarkus-native-build` | Backend Java | 📋 Pendiente | Build y testing de aplicación Quarkus con compilación nativa |
+| `proyecto/java-unit-integration-tests` | Backend Java | 📋 Pendiente | Automatización de pruebas unitarias e integración para Java |
+| `proyecto/springboot-azure-container` | Despliegue Backend | 📋 Pendiente | Despliegue de Spring Boot en Azure Container Instances |
+| `proyecto/quarkus-azure-app-service` | Despliegue Backend | 📋 Pendiente | Despliegue de aplicación Quarkus en Azure App Service |
+| `proyecto/java-docker-registry` | Despliegue Backend | 📋 Pendiente | Build y push de imágenes Docker para aplicaciones Java |
+| `proyecto/database-integration-ci` | Base de Datos | 📋 Pendiente | CI/CD con integración a PostgreSQL/MySQL usando Testcontainers |
+| `proyecto/flyway-migrations-automation` | Base de Datos | 📋 Pendiente | Automatización de migraciones de BD con Flyway en pipeline |
+| `proyecto/vault-secrets-integration` | Seguridad | 📋 Pendiente | Integración con HashiCorp Vault para manejo de secretos |
+| `proyecto/sonarqube-java-quality` | Seguridad | 📋 Pendiente | Análisis de calidad de código Java con SonarQube |
+| `proyecto/security-scanning-java` | Seguridad | 📋 Pendiente | Escaneo de vulnerabilidades en dependencias Java (OWASP) |
+| `proyecto/multi-env-springboot` | Avanzados | 📋 Pendiente | Despliegue de Spring Boot en múltiples entornos (dev/staging/prod) |
+| `proyecto/microservices-orchestration` | Avanzados | 📋 Pendiente | Orquestación de despliegue para arquitectura de microservicios |
+| `proyecto/custom-java-actions` | Avanzados | 📋 Pendiente | Creación de GitHub Actions personalizadas para proyectos Java |
+| `proyecto/angular-frontend-ci` | Frontend | 📋 Pendiente | CI/CD para aplicaciones Angular con testing y build |
+| `proyecto/react-azure-static-web` | Frontend | 📋 Pendiente | Despliegue de aplicación React en Azure Static Web Apps |
+| `proyecto/nodejs-api-deployment` | Frontend | 📋 Pendiente | CI/CD para APIs Node.js con integración a backends Java |
+| `proyecto/azure-ai-integration` | IA & Azure AI | 📋 Pendiente | Integración con Azure Cognitive Services en pipeline CI/CD |
+| `proyecto/ai-agents-automation` | IA & Azure AI | 📋 Pendiente | Automatización con agentes de IA para análisis de código |
+| `proyecto/fullstack-integration` | Integración | 📋 Pendiente | Pipeline completo Java backend + frontend + base de datos |
 
 ### 📊 Resumen de Progreso
 
 - ✅ **Completados**: 0 proyectos
 - 🚧 **En Progreso**: 0 proyectos  
-- 📋 **Pendientes**: 19 proyectos
+- 📋 **Pendientes**: 20 proyectos
 
 ### 🎯 Proyectos Base Completados
 - ✅ Configuración inicial del repositorio
@@ -55,20 +56,26 @@ La siguiente tabla muestra el progreso de todos los proyectos planificados en el
 
 ## 🛠 Categorías de Proyectos
 
-### Proyectos Básicos
-Primer acercamiento a GitHub Actions con conceptos fundamentales como workflows básicos, integración continua y automatización de pruebas.
+### Backend Java (Spring Boot & Quarkus)
+Desarrollo de aplicaciones backend con Spring Boot y Quarkus, incluyendo CI/CD, testing y compilación nativa.
 
-### Proyectos de Despliegue
-Exploración de diferentes plataformas y estrategias de despliegue usando GitHub Actions.
+### Base de Datos
+Integración con bases de datos relacionales, automatización de migraciones y testing con contenedores.
 
-### Proyectos de Seguridad y Calidad
-Implementación de prácticas de seguridad y calidad de código en los pipelines de CI/CD.
+### Despliegue Backend
+Estrategias de despliegue para aplicaciones Java en Azure Container Instances, App Service y registros Docker.
 
-### Proyectos Avanzados
-Técnicas avanzadas como despliegues multi-entorno, builds paralelos y creación de acciones personalizadas.
+### Seguridad
+Gestión de secretos con Vault, análisis de código con SonarQube y escaneo de vulnerabilidades en dependencias Java.
 
-### Proyectos de Integración
-Integración con herramientas y servicios externos para crear workflows completos.
+### Frontend (Angular, React, Node.js)
+CI/CD para aplicaciones frontend modernas y APIs Node.js con integración a backends Java.
+
+### IA & Azure AI
+Exploración de agentes de IA y servicios cognitivos de Azure integrados en pipelines de desarrollo.
+
+### Integración & Avanzados
+Arquitecturas de microservicios, despliegues multi-entorno y orquestación de pipelines fullstack.
 
 ## 📚 Objetivos de Aprendizaje
 
@@ -92,33 +99,49 @@ Integración con herramientas y servicios externos para crear workflows completo
 
 ## 🚀 Herramientas y Tecnologías a Explorar
 
+### Backend Java
+- **Spring Boot**: Framework principal para aplicaciones Java
+- **Quarkus**: Framework nativo para aplicaciones Java cloud-native
+- **Maven/Gradle**: Herramientas de build y gestión de dependencias
+- **JUnit/TestNG**: Frameworks de testing para Java
+- **Testcontainers**: Testing de integración con contenedores
+
 ### Plataformas de Despliegue
-- **Azure**: Container Instances, App Service, Functions
-- **AWS**: Lambda, ECS, S3, CloudFormation
-- **Google Cloud**: Cloud Run, App Engine, Functions
-- **Docker Hub**: Registro de contenedores
-- **GitHub Pages**: Hosting de sitios estáticos
+- **Azure**: Container Instances, App Service, Functions, Static Web Apps
+- **Docker**: Containerización y registros de imágenes
+- **Kubernetes**: Orquestación de contenedores (futuro)
+
+### Base de Datos
+- **PostgreSQL**: Base de datos relacional principal
+- **MySQL**: Base de datos relacional alternativa
+- **Flyway**: Herramienta de migración de base de datos
+- **H2**: Base de datos en memoria para testing
 
 ### Herramientas de Calidad y Seguridad
-- **SonarCloud**: Análisis estático de código
-- **CodeQL**: Análisis de seguridad semántico
-- **Dependabot**: Gestión de dependencias
-- **Trivy**: Escaneo de vulnerabilidades en contenedores
-- **SAST/DAST**: Herramientas de testing de seguridad
+- **SonarQube**: Análisis estático de código Java
+- **HashiCorp Vault**: Gestión segura de secretos
+- **OWASP Dependency Check**: Escaneo de vulnerabilidades en dependencias Java
+- **SpotBugs**: Análisis estático de código Java
+- **Checkstyle**: Verificación de estilo de código Java
+
+### Frontend y API
+- **Angular**: Framework frontend principal
+- **React**: Framework frontend alternativo
+- **Node.js**: Runtime para APIs y herramientas
+- **TypeScript**: Lenguaje tipado para frontend
+- **REST/OpenAPI**: Diseño de APIs
+
+### IA y Azure AI
+- **Azure Cognitive Services**: Servicios de IA preentrenados
+- **Azure OpenAI**: Integración con modelos GPT
+- **GitHub Copilot**: Asistente de código con IA
+- **Azure Machine Learning**: Plataforma de ML (futuro)
 
 ### Herramientas de Integración
-- **Slack**: Notificaciones y alertas
+- **Slack**: Notificaciones y alertas de pipeline
 - **Microsoft Teams**: Colaboración y notificaciones
 - **Jira**: Gestión de proyectos e issues
 - **Prometheus/Grafana**: Monitoreo y métricas
-- **Discord**: Notificaciones de comunidad
-
-### Lenguajes y Frameworks
-- **Node.js**: APIs y aplicaciones web
-- **Python**: Scripts y aplicaciones de datos
-- **Docker**: Containerización
-- **Terraform**: Infraestructura como código
-- **Kubernetes**: Orquestación de contenedores
 
 ## 📖 Cómo Navegar el Repositorio
 
