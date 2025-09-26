@@ -17,36 +17,58 @@ El propósito principal de este repositorio es **aprender GitHub Actions** a tra
 
 Cada proyecto individual se encuentra en una rama separada para mantener el código organizado y permitir experimentación sin afectar otros proyectos.
 
-## 🛠 Proyectos Planificados
+## 🔄 Estado de Proyectos
+
+La siguiente tabla muestra el progreso de todos los proyectos planificados en el repositorio:
+
+| Proyecto | Categoría | Estado | Descripción |
+|----------|-----------|--------|-------------|
+| `proyecto/hello-world-action` | Básicos | 📋 Pendiente | Primer acercamiento a GitHub Actions con workflows básicos |
+| `proyecto/ci-basico` | Básicos | 📋 Pendiente | Configuración de integración continua básica |
+| `proyecto/testing-automatizado` | Básicos | 📋 Pendiente | Automatización de pruebas unitarias y de integración |
+| `proyecto/deploy-azure-container` | Despliegue | 📋 Pendiente | Despliegue de microservicio en contenedor de Azure |
+| `proyecto/deploy-aws-lambda` | Despliegue | 📋 Pendiente | Despliegue de funciones serverless en AWS Lambda |
+| `proyecto/deploy-docker-hub` | Despliegue | 📋 Pendiente | Publicación de imágenes Docker en Docker Hub |
+| `proyecto/deploy-github-pages` | Despliegue | 📋 Pendiente | Despliegue de sitios estáticos en GitHub Pages |
+| `proyecto/security-scanning` | Seguridad | 📋 Pendiente | Implementación de escaneo de seguridad pre-despliegue |
+| `proyecto/code-quality` | Seguridad | 📋 Pendiente | Análisis de calidad de código con SonarCloud |
+| `proyecto/dependency-scanning` | Seguridad | 📋 Pendiente | Escaneo de vulnerabilidades en dependencias |
+| `proyecto/secret-scanning` | Seguridad | 📋 Pendiente | Gestión segura de secretos y credenciales |
+| `proyecto/multi-environment` | Avanzados | 📋 Pendiente | Despliegue en múltiples entornos (dev, staging, prod) |
+| `proyecto/matrix-builds` | Avanzados | 📋 Pendiente | Builds en paralelo con diferentes configuraciones |
+| `proyecto/custom-actions` | Avanzados | 📋 Pendiente | Creación de acciones personalizadas |
+| `proyecto/workflow-orchestration` | Avanzados | 📋 Pendiente | Orquestación compleja de workflows |
+| `proyecto/slack-notifications` | Integración | 📋 Pendiente | Integración con Slack para notificaciones |
+| `proyecto/jira-integration` | Integración | 📋 Pendiente | Integración con Jira para gestión de issues |
+| `proyecto/monitoring-alerts` | Integración | 📋 Pendiente | Integración con herramientas de monitoreo |
+| `proyecto/database-migrations` | Integración | 📋 Pendiente | Automatización de migraciones de base de datos |
+
+### 📊 Resumen de Progreso
+
+- ✅ **Completados**: 0 proyectos
+- 🚧 **En Progreso**: 0 proyectos  
+- 📋 **Pendientes**: 19 proyectos
+
+### 🎯 Proyectos Base Completados
+- ✅ Configuración inicial del repositorio
+- ✅ Documentación base del proyecto
+
+## 🛠 Categorías de Proyectos
 
 ### Proyectos Básicos
-- **`proyecto/hello-world-action`**: Primer acercamiento a GitHub Actions con workflows básicos
-- **`proyecto/ci-basico`**: Configuración de integración continua básica
-- **`proyecto/testing-automatizado`**: Automatización de pruebas unitarias y de integración
+Primer acercamiento a GitHub Actions con conceptos fundamentales como workflows básicos, integración continua y automatización de pruebas.
 
 ### Proyectos de Despliegue
-- **`proyecto/deploy-azure-container`**: Despliegue de microservicio en contenedor de Azure
-- **`proyecto/deploy-aws-lambda`**: Despliegue de funciones serverless en AWS Lambda
-- **`proyecto/deploy-docker-hub`**: Publicación de imágenes Docker en Docker Hub
-- **`proyecto/deploy-github-pages`**: Despliegue de sitios estáticos en GitHub Pages
+Exploración de diferentes plataformas y estrategias de despliegue usando GitHub Actions.
 
 ### Proyectos de Seguridad y Calidad
-- **`proyecto/security-scanning`**: Implementación de escaneo de seguridad pre-despliegue
-- **`proyecto/code-quality`**: Análisis de calidad de código con SonarCloud
-- **`proyecto/dependency-scanning`**: Escaneo de vulnerabilidades en dependencias
-- **`proyecto/secret-scanning`**: Gestión segura de secretos y credenciales
+Implementación de prácticas de seguridad y calidad de código en los pipelines de CI/CD.
 
 ### Proyectos Avanzados
-- **`proyecto/multi-environment`**: Despliegue en múltiples entornos (dev, staging, prod)
-- **`proyecto/matrix-builds`**: Builds en paralelo con diferentes configuraciones
-- **`proyecto/custom-actions`**: Creación de acciones personalizadas
-- **`proyecto/workflow-orchestration`**: Orquestación compleja de workflows
+Técnicas avanzadas como despliegues multi-entorno, builds paralelos y creación de acciones personalizadas.
 
 ### Proyectos de Integración
-- **`proyecto/slack-notifications`**: Integración con Slack para notificaciones
-- **`proyecto/jira-integration`**: Integración con Jira para gestión de issues
-- **`proyecto/monitoring-alerts`**: Integración con herramientas de monitoreo
-- **`proyecto/database-migrations`**: Automatización de migraciones de base de datos
+Integración con herramientas y servicios externos para crear workflows completos.
 
 ## 📚 Objetivos de Aprendizaje
 
@@ -134,18 +156,6 @@ Ejemplos:
 - **Setup**: ¿Cómo configurar el proyecto?
 - **Ejecución**: ¿Cómo probar el workflow?
 - **Lecciones Aprendidas**: ¿Qué insights se obtuvieron?
-
-## 🔄 Progreso Actual
-
-### ✅ Completados
-- Configuración inicial del repositorio
-- Documentación base del proyecto
-
-### 🚧 En Progreso
-- [Los proyectos en progreso se actualizarán aquí]
-
-### 📋 Por Hacer
-- Todos los proyectos listados en la sección "Proyectos Planificados"
 
 ## 📝 Notas de Aprendizaje
 
